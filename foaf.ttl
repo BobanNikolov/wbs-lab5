@@ -1,24 +1,26 @@
-<https://raw.githubusercontent.com/BobanNikolov/wbs-lab5/main/foaf.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/PersonalProfileDocument> .
-<https://raw.githubusercontent.com/BobanNikolov/wbs-lab5/main/foaf.ttl> <http://xmlns.com/foaf/0.1/maker> <https://raw.githubusercontent.com/BobanNikolov/wbs-lab5/main/foaf.ttl#me> .
-<https://raw.githubusercontent.com/BobanNikolov/wbs-lab5/main/foaf.ttl> <http://xmlns.com/foaf/0.1/primaryTopic> <https://raw.githubusercontent.com/BobanNikolov/wbs-lab5/main/foaf.ttl#me> .
-<https://raw.githubusercontent.com/BobanNikolov/wbs-lab5/main/foaf.ttl> <http://webns.net/mvcb/generatorAgent> <http://www.ldodds.com/foaf/foaf-a-matic> .
-<https://raw.githubusercontent.com/BobanNikolov/wbs-lab5/main/foaf.ttl> <http://webns.net/mvcb/errorReportsTo> <mailto:leigh@ldodds.com> .
-<https://raw.githubusercontent.com/BobanNikolov/wbs-lab5/main/foaf.ttl#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://raw.githubusercontent.com/BobanNikolov/wbs-lab5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/name> "Boban Nikolov" .
-<https://raw.githubusercontent.com/BobanNikolov/wbs-lab5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/title> "Mr" .
-<https://raw.githubusercontent.com/BobanNikolov/wbs-lab5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/givenname> "Boban" .
-<https://raw.githubusercontent.com/BobanNikolov/wbs-lab5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/family_name> "Nikolov" .
-<https://raw.githubusercontent.com/BobanNikolov/wbs-lab5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/nick> "Bobi" .
-<https://raw.githubusercontent.com/BobanNikolov/wbs-lab5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/mbox_sha1sum> "2e174fc4af304cdf46df6c8040d7748b9f0e0015" .
-<https://raw.githubusercontent.com/BobanNikolov/wbs-lab5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/boban-nikolov-6303a8222/> .
-<https://raw.githubusercontent.com/BobanNikolov/wbs-lab5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/phone> <tel:+38971394211> .
-<https://raw.githubusercontent.com/BobanNikolov/wbs-lab5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/workplaceHomepage> <https://www.linkedin.com/company/ambitious-solutions-mk/> .
-<https://raw.githubusercontent.com/BobanNikolov/wbs-lab5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/schoolHomepage> <https://www.finki.ukim.mk/> .
-<https://raw.githubusercontent.com/BobanNikolov/wbs-lab5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/knows> _:genid1 .
-<https://raw.githubusercontent.com/BobanNikolov/wbs-lab5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/knows> _:genid2 .
+< > <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/PersonalProfileDocument> .
+< > <http://xmlns.com/foaf/0.1/maker> < #me> .
+< > <http://xmlns.com/foaf/0.1/primaryTopic> < #me> .
+< > <http://webns.net/mvcb/generatorAgent> <http://www.ldodds.com/foaf/foaf-a-matic> .
+< > <http://webns.net/mvcb/errorReportsTo> <mailto:leigh@ldodds.com> .
+< #me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+< #me> <http://xmlns.com/foaf/0.1/name> "Boban Nikolov" .
+< #me> <http://xmlns.com/foaf/0.1/title> "Mr" .
+< #me> <http://xmlns.com/foaf/0.1/givenname> "Boban" .
+< #me> <http://xmlns.com/foaf/0.1/family_name> "Nikolov" .
+< #me> <http://xmlns.com/foaf/0.1/nick> "Bobi" .
+< #me> <http://xmlns.com/foaf/0.1/mbox_sha1sum> "2e174fc4af304cdf46df6c8040d7748b9f0e0015" .
+< #me> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/boban-nikolov-6303a8222/> .
+< #me> <http://xmlns.com/foaf/0.1/phone> <tel:+38971394211> .
+< #me> <http://xmlns.com/foaf/0.1/workplaceHomepage> <https://www.linkedin.com/company/ambitious-solutions-mk/> .
+< #me> <http://xmlns.com/foaf/0.1/schoolHomepage> <https://www.finki.ukim.mk/> .
+< #me> <http://xmlns.com/foaf/0.1/knows> _:genid1 .
+< #me> <http://xmlns.com/foaf/0.1/knows> _:genid2 .
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:genid1 <http://xmlns.com/foaf/0.1/name> "Andrej" .
+_:genid1 <http://xmlns.com/foaf/0.1/name> "Andrej Tavchiovski" .
 _:genid1 <http://xmlns.com/foaf/0.1/mbox_sha1sum> "0df188c43f9478a314f0c2dbba3a62f58d3d0901" .
+_:genid1 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.dropbox.com/s/b78ba1xkcfvnb2q/foaf.ttl?dl=1> .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:genid2 <http://xmlns.com/foaf/0.1/name> "Andon" .
-_:genid2 <http://xmlns.com/foaf/0.1/mbox_sha1sum> "d0f4d3550600c653d3eb88bfbfc5f3884c7f9892" .
+_:genid2 <http://xmlns.com/foaf/0.1/name> "Ivan Andreski" .
+_:genid2 <http://xmlns.com/foaf/0.1/mbox_sha1sum> "b3bf4b098a463ac5a1021a0bf3d6f8c20da6dbcf" .
+_:genid2 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://raw.githubusercontent.com/ivanandreski/is_computer_eshop/master/foaf.ttl> .
